@@ -1,10 +1,14 @@
+* {
+  font-family: Georgia;
+}
+
 body {
   width: 100%;
   height: 100vh;
   margin: 0;
-  background-color: #1E2A5E;
-  color: #f5f6f7;
-  font-family: Tahoma;
+  background-color: #10375C;
+  color: #F4F6FF;
+  font-family: Georgia;
   font-size: 16px;
 }
 
@@ -45,9 +49,9 @@ select {
 }
 
 input, textarea {
-  background-color: #0a0a23;
-  border: 1px solid #0a0a23;
-  color: #ffffff;
+  background-color: #F3C623;
+  border: 1px solid #EB8317;
+  color: black;
 }
 
 .inline {
@@ -62,8 +66,8 @@ input[type="submit"] {
   margin: 1em auto;
   height: 1em;
   font-size: 1.1rem;
-  background-color: #55679C;
-  border-color: white;
+  background-color: #EB8317;
+  border-color: #F3C623;
   min-width: 300px;
   margin-top: -15px;
 }
@@ -88,6 +92,26 @@ input[type="checkbox"] {
   display: left;
 }
 
-#number, #dropdown, #not, #gitter-help-rooms{
+#number, #dropdown, #no, #data{
   margin-bottom: 20px;
+}
+
+#submit{
+  color: white;
+}
+
+input::placeholder {
+  color: black;
+}
+
+textarea::placeholder {
+  color: black;
+}
+
+#dropdown {
+  background-color: #F3C623;
+}
+
+#dropdown::hover {
+  color: white;
 }
