@@ -22,6 +22,11 @@ body {
   font-weight: bold;
 }
 
+#navbar a:hover {
+  background-color: #629584; 
+  color: white;
+}
+
 header {
   color: black;
   margin: 10px;
