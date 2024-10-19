@@ -1,29 +1,29 @@
-
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Pianong Panalo</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
     />
   </head>
   <body>
-    <div id="page-wrapper">
+    <div id="page">
       <header id="header">
         <div class="logo">
           <img
             id="header-img"
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
-            alt="original trombones logo"
+            src="https://marketplace.canva.cn/bQteE/MAFi9lbQteE/1/tl/canva-piano-logo-icon-design-MAFi9lbQteE.png"
+            alt="piano logo"
           />
+          <h1>Pianong Panalo</h2>
         </div>
 
         <nav id="nav-bar">
           <ul>
             <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#products">Products</a></li>
             <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
             <li><a class="nav-link" href="#pricing">Pricing</a></li>
           </ul>
@@ -32,8 +32,8 @@
 
       <div class="container"></div>
 
-      <section id="hero">
-        <h2>Handcrafted, home-made masterpieces</h2>
+      <section id="tab">
+        <h2>Crafted for the Music Enthusiast</h2>
         <form id="form" action="https://www.freecodecamp.com/email-submit">
           <input
             name="email"
@@ -49,12 +49,11 @@
       <div class="container">
         <section id="features">
           <div class="grid">
-            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+            <div class="icon"><i class="fa fa-3x fa-guitar"></i></div>
             <div class="desc">
-              <h2>Premium Materials</h2>
+              <h2>High-Quality Materials</h2>
               <p>
-                Our trombones use the shiniest brass which is sourced locally.
-                This will increase the longevity of your purchase.
+                Our pianos are crafted from premium woods and metals to ensure superior sound quality and durability.
               </p>
             </div>
           </div>
@@ -63,27 +62,36 @@
             <div class="desc">
               <h2>Fast Shipping</h2>
               <p>
-                We make sure you recieve your trombone as soon as we have
-                finished making it. We also provide free returns if you are not
-                satisfied.
+                We guarantee that your piano will arrive swiftly and safely. Free returns are available if you're not satisfied.
               </p>
             </div>
           </div>
           <div class="grid">
             <div class="icon">
-              <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+              <i class="fa fa-3x fa-check-circle" aria-hidden="true"></i>
             </div>
             <div class="desc">
               <h2>Quality Assurance</h2>
               <p>
-                For every purchase you make, we will ensure there are no damages
-                or faults and we will check and test the pitch of your
-                instrument.
+                Each piano undergoes rigorous testing to ensure flawless sound and craftsmanship before it reaches you.
               </p>
             </div>
           </div>
         </section>
+
+      <section id="products">
+          <div class="grid">
+              <h2>Featured Products</h2>
+              <img src="https://th.bing.com/th/id/OIP.xmqol98hglGmUPTIslFYdQHaIh?rs=1&pid=ImgDetMain">
+              <img src="https://i5.walmartimages.com/asr/48e497bc-f9da-430a-8994-88d22da8c0e9_1.f9546cf5a79828e7852b9a48aefb317b.jpeg">
+              <img src="https://globalmusic.ph/wp-content/uploads/2023/02/NUX-WK-310-DIGITAL-PIANO-88KEYS-2.png">
+              <img src="https://hellomusictheory.com/wp-content/uploads/2021/12/piano.jpg">
+            </div>
+        </section>
+
+
         <section id="how-it-works">
+          <h2>How it works</h2>
           <iframe
             id="video"
             height="315"
@@ -93,36 +101,36 @@
           ></iframe>
         </section>
         <section id="pricing">
-          <div class="product" id="tenor">
-            <div class="level">Tenor Trombone</div>
-            <h2>$600</h2>
+          <div class="product" id="upright">
+            <div class="level">Upright Piano</div>
+            <h2>$1,200</h2>
             <ol>
-              <li>Lorem ipsum.</li>
-              <li>Lorem ipsum.</li>
-              <li>Lorem ipsum dolor.</li>
-              <li>Lorem ipsum.</li>
+              <li>Elegant design for any home.</li>
+              <li>Rich, warm tones.</li>
+              <li>Perfect for beginners and advanced players.</li>
+              <li>Includes free tuning.</li>
             </ol>
             <button class="btn">Select</button>
           </div>
-          <div class="product" id="bass">
-            <div class="level">Bass Trombone</div>
-            <h2>$900</h2>
+          <div class="product" id="grand">
+            <div class="level">Grand Piano</div>
+            <h2>$5,000</h2>
             <ol>
-              <li>Lorem ipsum.</li>
-              <li>Lorem ipsum.</li>
-              <li>Lorem ipsum dolor.</li>
-              <li>Lorem ipsum.</li>
+              <li>Stunning performance with exceptional sound quality.</li>
+              <li>Ideal for concerts and serious musicians.</li>
+              <li>Available in various finishes.</li>
+              <li>Includes free delivery and setup.</li>
             </ol>
             <button class="btn">Select</button>
           </div>
-          <div class="product" id="valve">
-            <div class="level">Valve Trombone</div>
-            <h2>$1200</h2>
+          <div class="product" id="digital">
+            <div class="level">Digital Piano</div>
+            <h2>$800</h2>
             <ol>
-              <li>Plays similar to a Trumpet</li>
-              <li>Great for Jazz Bands</li>
-              <li>Lorem ipsum dolor.</li>
-              <li>Lorem ipsum.</li>
+              <li>Lightweight and portable.</li>
+              <li>Includes multiple sounds and rhythms.</li>
+              <li>Perfect for practicing and performance.</li>
+              <li>Comes with built-in learning features.</li>
             </ol>
             <button class="btn">Select</button>
           </div>
@@ -133,7 +141,7 @@
             <li><a href="#">Terms</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
-          <span>Copyright 2016, Original Trombones</span>
+          <span>Copyright 2024, Quality Pianos</span>
         </footer>
       </div>
     </div>
