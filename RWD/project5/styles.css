@@ -1,3 +1,4 @@
+
 :root {
   --main-white: #EEDF7A;
   --main-red: #A04747;
@@ -137,7 +138,7 @@ img {
 
 .welcome-section h1 {
   margin-left: 500px;
-  margin-top: -380px;
+  margin-top: -370px;
   margin-bottom: 60px;
 }
 
@@ -145,9 +146,13 @@ img {
   width: 400px;
   height: 400px;
   margin-left: -700px;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 
+.pd {
+  margin-left: 600px;
+  margin-right: 100px;
+}
 
 .projects-section {
   text-align: center;
@@ -240,7 +245,6 @@ img {
   transition: transform 0.3s ease-out;
 }
 
-/* Contact section */
 
 .contact-section {
   display: flex;
@@ -287,7 +291,6 @@ img {
   transform: translateY(8px);
 }
 
-/* Footer */
 
 footer {
   font-weight: 300;
